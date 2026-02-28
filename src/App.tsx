@@ -1,4 +1,4 @@
-import { PageHeader } from './layouts';
+import { PageHeader } from '@/layouts';
 
 function App() {
   return (
