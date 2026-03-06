@@ -53,7 +53,7 @@ export const videos: Video[] = [
       name: 'Kevin Powell',
       id: 'KevinPowell',
       profileUrl:
-        'https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj',
+        'https://yt3.ggpht.com/ytc/AIdro_mQczyuvnXgEq8fApoOXpG2Yw_JKYqRA7kVOhNFuHLz9Vc=s68-c-k-c0x00ffffff-no-rj',
     },
     views: 1232300,
     postedAt: new Date('2023-10-05'),
@@ -69,7 +69,7 @@ export const videos: Video[] = [
       name: 'Kevin Powell',
       id: 'KevinPowell',
       profileUrl:
-        'https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj',
+        'https://yt3.ggpht.com/ytc/AIdro_mQczyuvnXgEq8fApoOXpG2Yw_JKYqRA7kVOhNFuHLz9Vc=s68-c-k-c0x00ffffff-no-rj',
     },
     views: 112,
     postedAt: new Date('2023-9-19'),
@@ -101,7 +101,7 @@ export const videos: Video[] = [
       name: 'Caleb Curry',
       id: 'CalebCurry',
       profileUrl:
-        'https://yt3.googleusercontent.com/ytc/APkrFKbpSojje_-tkBQecNtFuPdSCrg3ZT0FhaYjln9k0g=s176-c-k-c0x00ffffff-no-rj',
+        'https://yt3.ggpht.com/ytc/AIdro_ndg1Q0vocIKu0U3Ks9SLkSCjZbGiZ2W1rhSsJoqZTgFK4=s68-c-k-c0x00ffffff-no-rj',
     },
     views: 10340,
     postedAt: new Date('2023-03-03'),
@@ -117,7 +117,7 @@ export const videos: Video[] = [
       name: 'Fireship',
       id: 'Fireship',
       profileUrl:
-        'https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj',
+        'https://yt3.ggpht.com/3fPNbkf_xPyCleq77ZhcxyeorY97NtMHVNUbaAON_RBDH9ydL4hJkjxC8x_4mpuopkB8oI7Ct6Y=s68-c-k-c0x00ffffff-no-rj',
     },
     views: 10323340,
     postedAt: new Date('2023-08-09'),
@@ -133,7 +133,7 @@ export const videos: Video[] = [
       name: 'Fireship',
       id: 'Fireship',
       profileUrl:
-        'https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj',
+        'https://yt3.ggpht.com/3fPNbkf_xPyCleq77ZhcxyeorY97NtMHVNUbaAON_RBDH9ydL4hJkjxC8x_4mpuopkB8oI7Ct6Y=s68-c-k-c0x00ffffff-no-rj',
     },
     views: 20323340,
     postedAt: new Date('2023-09-09'),

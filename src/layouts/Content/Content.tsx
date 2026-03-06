@@ -16,7 +16,7 @@ const Content = () => {
       </div>
       <div className="grid gap-4 grid-cols-[repeat(auto-fill,minmax(300px,1fr))]">
         {videos.map((video) => (
-          <VideoItem {...video} />
+          <VideoItem key={video.id} {...video} />
         ))}
       </div>
     </div>
