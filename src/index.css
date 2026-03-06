@@ -8,3 +8,23 @@
   --color-secondary-dark: var(--color-neutral-800);
   --color-secondary-dark-hover: var(--color-neutral-900);
 }
+
+/* * {
+  scrollbar-width: thin;
+} */
+
+*::-webkit-scrollbar {
+  @apply bg-transparent w-2;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply bg-secondary-border rounded-full w-4;
+}
+
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+  @apply bg-transparent;
+}
+
+.scrollbar-hidden:hover::-webkit-scrollbar-thumb {
+  @apply bg-secondary-text;
+}
