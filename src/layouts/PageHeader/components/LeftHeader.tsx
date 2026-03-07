@@ -1,7 +1,7 @@
 import { Menu } from 'lucide-react';
 import Button from '@/components/Button';
 import logo from '@/assets/Logo.png';
-import useSidebarContext from '@/contexts/SidebarContext/useSidebarContext';
+import { useSidebarContext } from '@/contexts/SidebarContext';
 
 const LeftHeader = () => {
   const { toggle } = useSidebarContext();

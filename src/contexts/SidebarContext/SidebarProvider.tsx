@@ -7,11 +7,11 @@ type Props = {
   children: ReactNode;
 };
 
+const isScreenSmall = () => window.innerWidth < LARGE_SCREEN_BREAKPOINT;
+
 const SidebarProvider = ({ children }: Props) => {
   const [isLargeOpen, setIsLargeOpen] = useState(true);
   const [isSmallOpen, setIsSmallOpen] = useState(false);
-
-  const isScreenSmall = () => window.innerWidth < LARGE_SCREEN_BREAKPOINT;
 
   useEffect(() => {
     const resizeHandler = () => {

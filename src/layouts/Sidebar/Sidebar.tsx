@@ -13,7 +13,7 @@ import LargeSidebarItem from './components/LargeSidebarItem';
 import LargeSidebarSection from './components/LargeSidebarSection';
 import { playlists, subscriptions } from '@/data/sidebar';
 import LeftHeader from '../PageHeader/components/LeftHeader';
-import useSidebarContext from '@/contexts/SidebarContext/useSidebarContext';
+import { useSidebarContext } from '@/contexts/SidebarContext';
 
 const Sidebar = () => {
   const { isLargeOpen, isSmallOpen, close } = useSidebarContext();

@@ -39,8 +39,9 @@ const VideoItem = ({
     >
       <a href={`/watch?v=${id}`} className="relative aspect-video">
         <img
+          alt={title}
           src={thumbnailUrl}
-          className={`block w-full h-full object-cover transition[border-radius] duration-200 ${isVideoPlaying ? 'rounded-none' : 'rounded-xl'}`}
+          className={`block w-full h-full object-cover transition-[border-radius] duration-200 ${isVideoPlaying ? 'rounded-none' : 'rounded-xl'}`}
         />
         <div className="absolute bottom-1 right-1 bg-secondary-dark text-secondary text-sm px-0.5 rounded">
           {formatDuration(duration)}
@@ -55,7 +56,11 @@ const VideoItem = ({
       </a>
       <div className="flex gap-2">
         <a href={`/@${channel.id}`} className="shrink-0">
-          <img className="w-12 h-12 rounded-full" src={channel.profileUrl} />
+          <img
+            alt={channel.name}
+            className="w-12 h-12 rounded-full"
+            src={channel.profileUrl}
+          />
         </a>
         <div className="flex flex-col">
           <a href={`/watch?v=${id}`} className="font-bold">
